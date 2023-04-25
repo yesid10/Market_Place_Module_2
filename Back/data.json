@@ -1,0 +1,254 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "name": "Fresh Bread and Pastry Flour 200 g",
+      "image": "https://themes.pixelstrap.com/fastkart/assets/images/cake/product/2.png",
+      "actual_price": "$08.02",
+      "previus_price": "15.15",
+      "category": "Frutas y Vegetales",
+      "stock": 10
+    },
+    {
+      "id": 2,
+      "name": "Peanut Butter Bite Premium Butter Cookies 600 g",
+      "image": "https://themes.pixelstrap.com/fastkart/assets/images/cake/product/3.png",
+      "actual_price": "$04.33",
+      "previus_price": "10.36",
+      "category": "Frutas y Vegetales",
+      "stock": 10
+    },
+    {
+      "id": 3,
+      "name": "SnackAmor Combo Pack of Jowar Stick and Jowar Chips",
+      "image": "https://themes.pixelstrap.com/fastkart/assets/images/cake/product/4.png",
+      "actual_price": "$12.52",
+      "previus_price": "13.62",
+      "category": "Galletas y Bocadillos",
+      "stock": 10
+    },
+    {
+      "id": 4,
+      "name": "Yumitos Chilli Sprinkled Potato Chips 100 g",
+      "image": "https://themes.pixelstrap.com/fastkart/assets/images/cake/product/5.png",
+      "actual_price": "$10.25",
+      "previus_price": "12.36",
+      "category": "Galletas y Bocadillos",
+      "stock": 10
+    },
+    {
+      "id": 5,
+      "name": "Fantasy Crunchy Choco Chip Cookies",
+      "image": "https://themes.pixelstrap.com/fastkart/assets/images/cake/product/6.png",
+      "actual_price": "$14.25",
+      "previus_price": "16.57",
+      "category": "Frutas y Vegetales",
+      "stock": 10
+    },
+    {
+      "id": 6,
+      "name": "Mix de mariscos Antillana x400g",
+      "image": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/195239-300-300?v=1766530598&width=300&height=300&aspect=true",
+      "actual_price": "$28,000",
+      "previus_price": "30,000",
+      "category": "Carnes y Mariscos",
+      "stock": 10
+    },
+    {
+      "id": 7,
+      "name": "Pan tajado blanco extra largo Santa Clara x 750 g",
+      "image": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/193073-300-300?v=1766542196&width=300&height=300&aspect=true",
+      "actual_price": "$8,590",
+      "previus_price": "9,500",
+      "category": "Desayuno y Lacteos",
+      "stock": 10
+    },
+    {
+      "id": 8,
+      "name": "Queso mozarella Finesse 30 tajadas x450g",
+      "image": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/449939-300-300?v=1766539406&width=300&height=300&aspect=true",
+      "actual_price": "$21,592",
+      "previus_price": "23,000",
+      "category": "Desayuno y Lacteos",
+      "stock": 10
+    },
+    {
+      "id": 9,
+      "name": "Mojarra Plateada X 500 g",
+      "image": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/203484-300-300?v=1766530572&width=300&height=300&aspect=true",
+      "actual_price": "$8,750",
+      "previus_price": "9,500",
+      "category": "Comidas Congeladas",
+      "stock": 10
+    },
+    {
+      "id": 10,
+      "name": "Filete de trucha fresca",
+      "image": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/200288-300-300?v=1766530597&width=300&height=300&aspect=true",
+      "actual_price": "$42,000",
+      "previus_price": "45,000",
+      "category": "Comidas Congeladas",
+      "stock": 10
+    },
+    {
+      "id": 11,
+      "name": "Galletas Oreo Original x432g",
+      "image": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/474312-300-300?v=1766537933&width=300&height=300&aspect=true",
+      "actual_price": "$13,900",
+      "previus_price": "15,000",
+      "category": "Galletas y Bocadillos",
+      "stock": 10
+    },
+    {
+      "id": 12,
+      "name": "Queso con bocadillo Bocaditos Superior x160g",
+      "image": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/203102-300-300?v=1766523943&width=300&height=300&aspect=true",
+      "actual_price": "$6,900",
+      "previus_price": "7,500",
+      "category": "Galletas y Bocadillos",
+      "stock": 10
+    },
+    {
+      "id": 13,
+      "name": "Tostacos Sabor a picante x12 und x25g c-u",
+      "image": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/190799-300-300?v=1766528884&width=300&height=300&aspect=true",
+      "actual_price": "$12,990",
+      "previus_price": "14,230",
+      "category": "Comestibles y Alimentos Basicos",
+      "stock": 10
+    },
+    {
+      "id": 14,
+      "name": "Pasabocas Doritos mega queso x 10 und x 340 g peso neto",
+      "image": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/208550-300-300?v=1766540743&width=300&height=300&aspect=true",
+      "actual_price": "$19,590",
+      "previus_price": "21,300",
+      "category": "Comestibles y Alimentos Basicos",
+      "stock": 10
+    },
+    {
+      "id": 15,
+      "name": "Vino Peñasol tempranillo garnacha x3L",
+      "image": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/226594-300-300?v=1766539561&width=300&height=300&aspect=true",
+      "actual_price": "$34,492",
+      "previus_price": "35,250",
+      "category": "Vinos y Bebidas Alcohólicas",
+      "stock": 10
+    },
+    {
+      "id": 16,
+      "name": "Whiskey Jack Daniel's Old Tennesee x750ml",
+      "image": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/439660-300-300?v=1766523157&width=300&height=300&aspect=true",
+      "actual_price": "$119,990",
+      "previus_price": "130,500",
+      "category": "Vinos y Bebidas Alcohólicas",
+      "stock": 10
+    },
+    {
+      "id": 17,
+      "name": "Leche semidescremada Alquería Balance x6und x1100ml c-u",
+      "image": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/450117-300-300?v=1766536225&width=300&height=300&aspect=true",
+      "actual_price": "$36,990",
+      "previus_price": "37,900",
+      "category": "Leche y Lacteos",
+      "stock": 10
+    },
+    {
+      "id": 18,
+      "name": "Queso doble crema Superior tajado x1500g",
+      "image": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/202952-300-300?v=1766510637&width=300&height=300&aspect=true",
+      "actual_price": "$55,990",
+      "previus_price": "59,900",
+      "category": "Leche y Lacteos",
+      "stock": 10
+    },
+    {
+      "id": 19,
+      "name": "Alimento Chunky para perro adultos x25kg",
+      "image": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/207471-300-300?v=1766526187&width=300&height=300&aspect=true",
+      "actual_price": "$179,990",
+      "previus_price": "185,800",
+      "category": "Alimentos para mascotas",
+      "stock": 10
+    },
+    {
+      "id": 20,
+      "name": "Alimento húmedo de gato Fancy Feast casserole x85gr",
+      "image": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/382159-300-300?v=1766526582&width=300&height=300&aspect=true",
+      "actual_price": "$5,592",
+      "previus_price": "6,000",
+      "category": "Alimentos para mascotas",
+      "stock": 10
+    },
+    {
+      "id": 21,
+      "name": "Papaya Maradol (Unidad)",
+      "image": "https://i0.wp.com/www.fruvext.com.co/wp-content/uploads/2021/06/papaya.jpg?resize=300%2C300&ssl=1",
+      "actual_price": "$4,860",
+      "previus_price": "5,000",
+      "category": "Frutas y Vegetales",
+      "stock": 10
+    },
+    {
+      "id": 22,
+      "name": "Uva Roja (500 Gramos)",
+      "image": "https://i0.wp.com/www.fruvext.com.co/wp-content/uploads/2021/06/Uva.jpg?resize=300%2C300&ssl=1",
+      "actual_price": "$7,313",
+      "previus_price": "8,000",
+      "category": "Frutas y Vegetales",
+      "stock": 10
+    },
+    {
+      "id": 23,
+      "name": "Gatorade Mandarina pet x500ml",
+      "image": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/186505-300-300?v=1766536833&width=300&height=300&aspect=true",
+      "actual_price": "$3,050",
+      "previus_price": "4,000",
+      "category": "Bebidas",
+      "stock": 10
+    },
+    {
+      "id": 24,
+      "name": "Jugo Hit Pague 5 Lleve 6 x200ml",
+      "image": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/186549-300-300?v=1766531045&width=300&height=300&aspect=true",
+      "actual_price": "$5,990",
+      "previus_price": "6,540",
+      "category": "Bebidas",
+      "stock": 10
+    },
+    {
+      "id": 25,
+      "name": "Sobrebarriga en bandeja x500gr",
+      "image": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/203470-300-300?v=1766541420&width=300&height=300&aspect=true",
+      "actual_price": "$11,960",
+      "previus_price": "14,960",
+      "category": "Carnes y Mariscos",
+      "stock": 10
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nombres": "German Yesid",
+      "apellidos": "Vanegas Cely",
+      "email": "yesidvanegas68@gmail.com",
+      "password": "yesid12345"
+    },
+    {
+      "id": 2,
+      "nombres": "Melisa Alejandra",
+      "apellidos": "Neisa Niño",
+      "email": "alejandraneisa14.02@gmail.com",
+      "password": "melisa12345"
+    },
+    {
+      "id": 2,
+      "nombres": "Emmanuel Alejandro",
+      "apellidos": "Neisa Niño",
+      "email": "emanueneisa14.02@gmail.com",
+      "password": "emanuel12345"
+    }
+  ],
+  "favoritos": [],
+  "compras": []
+}

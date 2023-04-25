@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="icon" href="https://themes.pixelstrap.com/fastkart/assets/images/favicon/1.png">
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+        integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/car.css">
+</head>
+
+<body>
+    <header>
+        <div class="text-center">
+            <div class="row">
+                <div class="col d-flex ps-5 ms-5 align-items-center">
+                    <span class="text-white fw-bold fs-6"><i class="bi bi-geo-alt p-2 fw-bold"></i>1418 Riverwood
+                        Drive, CA 96052, US</span>
+                </div>
+                <div class="d-flex col-6 text-white fs-6 align-items-center">
+                    <strong class="me-1">Welcome to Fastkart!</strong>
+                    Wrap new offers/gift every signle day on Weekends.
+                    <strong class="ms-1">New Coupon Code: Fast024</strong>
+                </div>
+                <div class="col">
+                    <nav class="navbar navbar-expand-lg m-0 p-0">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <button class="btn dropdown-toggle text-white" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <img src="https://themes.pixelstrap.com/fastkart/assets/images/country/united-states.png"
+                                        alt="" width="20px">
+                                    <span class="fs-6 fw-medium">English</span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#"><img
+                                                src="https://themes.pixelstrap.com/fastkart/assets/images/country/united-kingdom.png"
+                                                alt="" width="20px">
+                                            English</a></li>
+                                    <li><a class="dropdown-item" href="#"><img
+                                                src="https://themes.pixelstrap.com/fastkart/assets/images/country/germany.png"
+                                                alt="" width="20px">
+                                            Germany
+                                        </a></li>
+                                    <li><a class="dropdown-item" href="#"><img
+                                                src="https://themes.pixelstrap.com/fastkart/assets/images/country/turkish.png"
+                                                alt="" width="20px">
+                                            Turki
+                                        </a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <span class="text-white fw-medium">|</span>
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <button class="btn dropdown-toggle text-white" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <span class="fs-6 fw-medium">USD</span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">AUD</a></li>
+                                    <li><a class="dropdown-item" href="#">EUR</a></li>
+                                    <li><a class="dropdown-item" href="#">CNY</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+            </nav>
+        </div>
+        </div>
+        </div>
+
+        <!--Buscador y demás-->
+        <div class="container justify-content-between d-flex pt-4 w-100 align-items-center gx-2">
+            <div class="d-flex">
+                <figure class="pt-2">
+                    <a href="../index.html" class="navbar-brand container"><img
+                            src="https://themes.pixelstrap.com/fastkart/assets/images/logo/1.png" alt=""></a>
+                </figure>
+            </div>
+
+            <div class="input-group mb-3 ps-4">
+                <div class="d-flex pe-5">
+                    <a class="nav-item border border-secondary-subtle" href="">
+                        <i class="bi bi-geo-alt fs-5 text-dark"></i>
+                    </a>
+                </div>
+                <input type="text" class="form-control border rounded aria-label=" Sizing example input
+                    aria-describedby="inputGroup-sizing-lg" placeholder="I'm searching for...">
+                <button class="input-group-text color border border-start-0 ps-1 pe-1 " id="inputGroup-sizing-lg"><i
+                        class="bi bi-search p-2 ps-3 pe-3 fs-6 text-white"></i></button>
+            </div>
+
+            <div class="d-flex">
+                <a class="border-0 text-dark ps-5" href="">
+                    <i class="bi bi-telephone-outbound fs-3"></i>
+                </a>
+                <span class="fs-3 text-secondary px-3"">|</span>
+          <a class=" border-0 text-dark" href="../pages/favorite.html">
+                    <i class="bi bi-suit-heart fs-3"></i>
+                    </a>
+                    <span class="fs-3 text-secondary px-3">|</span>
+                    <a href="" class="position-relative car">
+                        <i class="bi bi-cart fs-3 text-dark car"></i>
+                        <span class="car position-absolute  translate-middle badge bg-danger opacity-75">
+                          2
+                          <span class="visually-hidden car">unread messages</span>
+                        </span>
+                        <div class=" position-absolute bg-white rounded-2 productCar"
+                          style="width: 320px; height: auto; box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; right: 60%;">
+                          <div class="productCarSmall ms-3 me-1 mt-5 justify-content-between" style="width: 250px; white-space: nowrap;
+                          overflow: hidden;
+                          text-overflow: ellipsis;">
+
+                          </div>
+                          <hr class="container">
+                          <div class="mb-4 d-flex  justify-content-between">
+                            <div class="ms-4">
+                                <p class="text-dark opacity-75">Total:</p>
+                                <span href="./car.html" class=" ViewCart border border-3 ps-2 pe-2 pt-2 pb-2 rounded  border-success border-opacity-75 text-success opacity-75" style=" font-size: 14px; font-weight: 500;">View Cart</span>
+                            </div>
+                            <div class="me-4 ">
+                                <p class="fs-5 fw-bold" style="color: #0da487;">$106.58</p>
+                                <span role="button" class="border-0 ps-2 pe-2 pt-2 pb-2 rounded text-white " style="background-color: #0da487; font-size: 14px; font-weight: 500;">Checkout</span>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    <span class="fs-3 text-secondary px-3">|</span>
+                    <a class="border-0 text-dark" href="">
+                        <i class="bi bi-person fs-3"></i>
+                    </a>
+
+            </div>
+        </div>
+        <!--Categorías-->
+        <div class="d-flex container justify-content-between">
+            <div class="d-flex Categories p-2 border rounded">
+                <i class="bi bi-list-columns-reverse text-white "></i>
+                <span class="fw-bold ps-3 text-white">All Categories</span>
+            </div>
+            <div class="d-flex align-items-center gap-3">
+                <div class="">
+                    <select class="form-select border-0 fw-medium" id="floatingSelectGrid">
+                        <option selected class="fw-medium">Home</option>
+                        <option value="1" class="fw-medium">One</option>
+                        <option value="2" class="fw-medium">Two</option>
+                        <option value="3" class="fw-medium">Three</option>
+                    </select>
+                </div>
+                <div class="">
+                    <select class="form-select border-0 fw-medium" id="floatingSelectGrid">
+                        <option selected class="fw-medium">Shop</option>
+                        <option value="1" class="fw-medium">One</option>
+                        <option value="2" class="fw-medium">Two</option>
+                        <option value="3" class="fw-medium">Three</option>
+                    </select>
+                </div>
+                <div class="">
+                    <select class="form-select border-0 fw-medium" id="floatingSelectGrid">
+                        <option selected class="fw-medium">Product</option>
+                        <option value="1" class="fw-medium">One</option>
+                        <option value="2" class="fw-medium">Two</option>
+                        <option value="3" class="fw-medium">Three</option>
+                    </select>
+                </div>
+                <div class="">
+                    <select class="form-select border-0 fw-medium" id="floatingSelectGrid">
+                        <option selected class="fw-medium">Mega Menu</option>
+                        <option value="1" class="fw-medium">One</option>
+                        <option value="2" class="fw-medium">Two</option>
+                        <option value="3" class="fw-medium">Three</option>
+                    </select>
+                </div>
+                <div class="">
+                    <select class="form-select border-0 fw-medium" id="floatingSelectGrid">
+                        <option selected class="fw-medium">Blog</option>
+                        <option value="1" class="fw-medium">One</option>
+                        <option value="2" class="fw-medium">Two</option>
+                        <option value="3" class="fw-medium">Three</option>
+                    </select>
+                </div>
+                <div class="">
+                    <select class="form-select border-0 fw-medium" id="floatingSelectGrid">
+                        <option selected class="fw-medium">Pages</option>
+                        <option value="1" class="fw-medium">One</option>
+                        <option value="2" class="fw-medium">Two</option>
+                        <option value="3" class="fw-medium">Three</option>
+                    </select>
+                </div>
+                <div class="">
+                    <select class="form-select border-0 fw-medium" id="floatingSelectGrid">
+                        <option selected class="fw-medium">Seller</option>
+                        <option value="1" class="fw-medium">One</option>
+                        <option value="2" class="fw-medium">Two</option>
+                        <option value="3" class="fw-medium">Three</option>
+                    </select>
+                </div>
+                <div>
+                    <a href="" class="text-decoration-none"><span class="fw-medium text-dark ">Contact</span></a>
+                </div>
+
+            </div>
+            <div class="ps-5">
+                <a href="../index.html">
+                    <i class="bi bi-lightning-charge border rounded px-3 py-2 fs-3 text-success rrr"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <br><br>
+    <main class="main">
+        <div class="d-flex bg-body-tertiary justify-content-between w-100 pt-5 pb-5">
+            <div class="container d-flex justify-content-between">
+                <div class=" d-flex align-items-center">
+                    <p class="mb-0 fw-bold"
+                        style="font-size: calc(16px + (22 - 16) * ((100vw - 320px) / (1920 - 320)))">Cart
+                    </p>
+                </div>
+                <div class="d-flex align-items-center gap-2">
+                    <a href="../index.html" class="text-dark"><i class="fa-solid fa-house text"></i></a>
+                    <i class="fa-solid fa-angle-right"></i>
+                    <p class="mb-0 ">Cart</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container d-flex gap-5 mt-5 ">
+            <div class="main__products bg-body-tertiary d-flex row rounded-2" style="width: 70%;">
+            
+            </div>
+            <div class="bg-body-tertiary d-flex row container" style="width: 30%;">
+                <p class="fw-bold ms-2 mt-3 fs-5">Cart Total</p>
+
+                <div class="d-flex row text-body-tertiary">
+                    <hr>
+                    <p class="container">Coupon Apply</p>
+                    <div class="d-flex">
+                        <input type="text" class="container p-2 border border-success rounded "
+                            placeholder="Enter Coupon Code Here...">
+                        <button class="ps-4 pe-4 pt-2 pb-2 text-white fw-bold border-0 rounded"
+                            style="background-color: #0da487;">Apply</button>
+                    </div>
+                    <div class="d-flex justify-content-between text-body-tertiary mt-4">
+                        <p>Subtotal</p>
+                        <p>$125.65</p>
+                    </div>
+                    <div class="d-flex justify-content-between text-body-tertiary mt-2">
+                        <p>Coupon Discount</p>
+                        <p>(-) 0.00</p>
+                    </div>
+                    <div class="d-flex justify-content-between text-body-tertiary mt-2">
+                        <p>Shipping</p>
+                        <p>$6.90</p>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-between text-body-tertiary mt-2">
+                        <h5 class="text-dark fw-bold">Total (COP)</h5>
+                        <p class="fs-5 fw-bold" style="color: #0da487;">$132.58</p>
+                    </div>
+                    <button  class="p-2 bord mb-2 border-0 rounded text-white fw-bold" data-checkout="btn" style="background-color: #ff4f4f;">Process To Checkout</button>
+                    
+                    <a href="../index.html#comprar" class="bg-body-secondary bg-gradient rounded  mt-2 mb-5 d-flex align-items-center justify-content-center text-dark text-decoration-none"><i class="fa-solid fa-arrow-left me-3"></i><p class="d-flex mt-2 mb-2">Return To Shopping</p></a>
+                </div>
+            </div>
+        </div>
+        <div class="formularioCompra bg-white d-none d-flex justify-content-center align-items-center rounded-2" style="position: relative; left: 20%;width: 45%; bottom: 500px; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;">
+            <form class="m-4 formulario needs-validation" style="width: 90%;" novalidate> 
+                <input type="text" placeholder="Nombre" class="w-100 p-3 rounded mb-4 " required>
+                <div class="invalid-feedback">
+                    Es necesario poner el nombre.
+                </div>
+                <input type="text" placeholder="Dirección" class="w-100 p-3 rounded mb-4" required>
+                <div class="invalid-feedback">
+                    Es necesario poner la dirección.
+                </div>
+                <input type="number" placeholder="Teléfono" class="w-100 p-3 rounded mb-4"  required>
+                <div class="invalid-feedback">
+                    Es necesario poner el teléfono.
+                </div>
+                <div  style="position: relative; left: 60%;">
+                    <button data-cancelar="btn" class="BtnCancelar border-0 ps-4 pe-4 pt-3 pb-3 me-2 rounded-2">Cancel</button>
+                    <button type="submit" data-buyNow = "btn" class=" border-0 ps-4 pe-4 pt-3 pb-3 ms-2 rounded-2 text-white fw-bold" style="background-color: #ff4f4f;">Buy Now</button> 
+                </div>
+            </form>
+        </div>
+    </main>
+    <br><br>
+    <footer class="footer bg-body-tertiary">
+        <div class="container d-flex justify-content-between  text-secondary-emphasis">
+            <div>
+                <figure class="pt-5">
+                    <a href="./favorite.html" class="navbar-brand container"><img
+                            src="https://themes.pixelstrap.com/fastkart/assets/images/logo/1.png" alt=""></a>
+                </figure>
+                <p class="lh-base">We are a friendly bar serving a variety of <br> cocktails, wines and beers. Our bar
+                    is a <br>
+                    perfect place for a
+                    couple.</p>
+                <br>
+                <div class="d-flex align-items-center gap-3">
+                    <i class="bi bi-house-door fs-5"></i>
+                    <p class="pb-0 mb-0">1418 Riverwood Drive, CA 96052, US</p>
+                </div>
+                <div class="d-flex align-items-center gap-3">
+                    <i class="bi bi-envelope fs-5"></i>
+                    <p class="pb-0 mb-0">support@fastkart.com</p>
+                </div>
+            </div>
+            <div>
+                <p class="fw-bold fs-5 mb-4 mt-5">Categories</p>
+                <ul class="list-unstyled">
+                    <li class="mb-3">Vegetables & Fruit</li>
+                    <li class="mb-3">Beverages</li>
+                    <li class="mb-3">Meats & Seafood</li>
+                    <li class="mb-3">Frozen Foods</li>
+                    <li class="mb-3">Biscuits & Snacks</li>
+                    <li class="mb-3">Grocery & Staples</li>
+                </ul>
+            </div>
+            <div>
+                <p class="fw-bold fs-5 mb-4 mt-5">Useful Links</p>
+                <ul class="list-unstyled">
+                    <a href="./favorite.html" class="text-decoration-none text-secondary-emphasis">
+                        <li class="mb-3">Home</li>
+                    </a>
+                    <li class="mb-3">Shop</li>
+                    <li class="mb-3">About Us</li>
+                    <li class="mb-3">Blog</li>
+                    <li class="mb-3">Contact Us</li>
+                </ul>
+            </div>
+            <div>
+                <p class="fw-bold fs-5 mb-4 mt-5">Useful Links</p>
+                <ul class="list-unstyled">
+                    <a href="./favorite.html" class="text-decoration-none text-secondary-emphasis">
+                        <li class="mb-3">Your Order</li>
+                    </a>
+                    <li class="mb-3">Your Account</li>
+                    <li class="mb-3">Track Order</li>
+                    <li class="mb-3">Your Wishlist</li>
+                    <li class="mb-3">Search</li>
+                    <li class="mb-3">FAQ</li>
+                </ul>
+            </div>
+            <div>
+                <p class="fw-bold fs-5 mb-4 mt-5">Contact Us</p>
+                <div>
+                    <span class="d-flex align-items-center"><i class="bi bi-telephone fs-5 me-3"></i>
+                        <p class="mb-0 pb-0">Hotline 24/7:</p>
+                    </span>
+                    <p class="fw-bold ms-4">+57 311 859 9554</p>
+                    <p>------------------------------------------------</p>
+                    <div>
+                        <span class="d-flex align-items-center"><i class="bi bi-envelope fs-5 me-3"></i>
+                            <p class="mb-0 pb-0">Email Address:</p>
+                        </span>
+                        <p class="fw-bold ms-4">yesidvanegas68@gmail.com</p>
+                    </div>
+                    <p>------------------------------------------------</p>
+                    <p class="mb-1">Download App:</p>
+                    <div class="d-flex gap-3">
+                        <a href="https://play.google.com/store/apps">
+                            <img src="https://themes.pixelstrap.com/fastkart/assets/images/playstore.svg"
+                                alt="Play Store" style="width: 150px;">
+                        </a>
+                        <a href="https://www.apple.com/nl/app-store/">
+                            <img src="https://themes.pixelstrap.com/fastkart/assets/images/appstore.svg"
+                                alt="Play Store" style="width: 150px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="container">
+        <div class="container d-flex justify-content-between mb-4 mt-4">
+            <div>
+                <p>©2022 Fastkart All rights reserved</p>
+            </div>
+            <div>
+                <img src="https://themes.pixelstrap.com/fastkart/assets/images/payment/1.png" alt="paypal">
+            </div>
+            <div class="d-flex">
+                <p class="me-2">Stay connected :</p>
+                <div>
+                    <i class="fa-brands fa-facebook-f me-3"></i>
+                    <i class="fa-brands fa-twitter me-3"></i>
+                    <i class="fa-brands fa-instagram me-3"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js"></script>
+    <script src="https://kit.fontawesome.com/52ab93a673.js" crossorigin="anonymous"></script>
+    <script type="module" src="../scripts/car.js" ></script>
+</body>
+
+</html>

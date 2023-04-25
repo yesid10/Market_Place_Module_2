@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+::-webkit-scrollbar {
+    display: none;
+  }
+
+body {
+    font-family: 'Public Sans', sans-serif;
+}
+
+.text-center {
+    background-color: #0da487;
+    font-size: 14px;
+}
+
+.navbar-brand img {
+    width: calc(120px + (162 - 120) * ((100vw - 320px) / (1920 - 320)));
+    height: auto;
+}
+
+.nav-item {
+    border-radius: 5px;
+    padding: 8px;
+    gap: 20px;
+}
+
+.nav-item i {
+    background-color: rgb(227, 227, 227);
+    padding: 4px 8px 4px 8px;
+    border-radius: 10px;
+}
+
+.main__products {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.info_product img {
+    width: 200px;
+    
+}
+
+.color {
+    background-color: #ffa53b;
+}
+
+.Categories {
+    background-color: #0da487;
+    font-size: 23px;
+}
+
+.Categories i {
+    font-size: 30px;
+}
+
+.rrr {
+    background-color: #e5f7f3 !important;
+}
+
+.color_azul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    color: #0da487;
+    font-weight: 800;
+}
+
+.rounded-end-pill {
+    width: 65%;
+    height: 35%;
+}
+
+.details a{
+    color: black;
+}
+
+.actionsCard{
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+.cards:hover .actionsCard{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+.imgTransform{
+    transform: scale();
+    transition: transform 0.7s;
+}
+.cards:hover .imgTransform{
+    transform: scale(1.1);
+    transition: transform 0.7s ;
+}
+.productCar{
+    visibility: visible;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: opacity 0.7s ease-in-out, transform 0.5s ease-in-out;
+}
+.car:hover .productCar{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+    z-index: 100;
+}
+.ViewCart:hover{
+    color: #ffffff !important;
+    font-weight: 500 !important;
+    background-color: #0da487 !important;
+    transition: background-color 1s ease-out;
+    border: none !important; 
+}
+
+
+@media only screen and (max-width: 600px) {
+    .card{
+        width: 100%;
+    }
+    .productsContainer{
+        display: inline-block !important;
+    }
+    .searchContainer{
+        display: inline-block !important;
+    }
+    .categoryContainer{
+        display: inline-block !important;
+    }
+    .imgContainer{
+        display: inline-block !important;
+    }
+    .headertextContainer{
+        display: none !important;
+    }
+}
+
